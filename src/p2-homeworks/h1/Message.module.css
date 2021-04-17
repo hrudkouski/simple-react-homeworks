@@ -1,3 +1,55 @@
-.message {
+.wrapper {
+    margin: 0 0 30px 100px;
+}
 
+.messages {
+    background-color: rgb(104, 100, 100);
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    color: #BEF4C1;
+    /*z-index: 0;*/
+    /*position: relative;*/
+}
+
+/*.messages:before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 104px;*/
+/*    left: -8px;*/
+/*    border-width: 0 27px 16px 16px;*/
+/*    border-style: groove;*/
+/*    border-color: rgb(104, 100, 100);*/
+/*    z-index: 2;*/
+/*}*/
+
+.avatar img {
+    width: 60px;
+    border-radius: 40px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+.name {
+    margin: 10px 10px 0 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.message {
+    margin: 10px 10px 0 20px;
+    font-size: 1.2em;
+}
+
+.time {
+    margin: 10px 10px 0 200px;
+    font-weight: bold;
+}
+
+svg {
+    position: absolute;
+    top: 57px;
+    left: 83px;
+    fill: rgb(104, 100, 100);
 }
