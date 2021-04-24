@@ -1,3 +1,48 @@
 .someClass {
+    margin-left: 100px;
+    color: #BEF4C1;
+    width: 233px;
+    background-color: rgba(6, 54, 168, 0.5);
+    border: white 1px solid;
+}
 
+.someClass button {
+    background-color: #BEF4C1;
+}
+
+.priorityButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filterStyle {
+    color: red;
+    font-weight: bold;
+}
+
+.affairs {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 230px;
+}
+
+.affairs button:hover {
+    background-color: red;
+}
+
+.affairs button {
+    border-radius: 50%;
+}
+
+.low {
+    color: green;
+}
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: orange;
 }
