@@ -2,6 +2,34 @@
 
 }
 
+.wrapper {
+    margin-left: 100px;
+}
+
+.wrapper button {
+    margin-left: 20px;
+    background-color: #5AAFDD;
+    border-radius: 30%;
+    font-weight: bold;
+}
+
+.wrapper input {
+    background-color: #2B5278;
+    color: #BEF4C1;
+    min-width: 150px;
+}
+
+.totalUsers {
+    color: #E92539;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
 .error {
-    border: 1px solid red;
+    border: 3px solid #E92539;
+}
+
+.titleError {
+    color: #E92539;
+    font-weight: bold;
 }

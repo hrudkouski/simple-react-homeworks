@@ -1,23 +1,28 @@
 .someClass {
     margin-left: 100px;
-    color: #BEF4C1;
-    width: 233px;
-    background-color: rgba(6, 54, 168, 0.5);
+    color: #ffffff;
+    width: 225px;
+    background-color: #2B5278;
     border: white 1px solid;
+    padding: 10px;
+    font-weight: bold;
 }
 
 .someClass button {
-    background-color: #BEF4C1;
+    background-color: #2B5278;
+    font-weight: bold;
 }
 
 .priorityButton {
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
 }
 
 .filterStyle {
-    color: red;
+    color: #BEF4C1;
     font-weight: bold;
+    border-radius: 50%;
 }
 
 .affairs {
