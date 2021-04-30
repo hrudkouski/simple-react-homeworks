@@ -1,7 +1,46 @@
-.checkbox {
+.spanClassName {
 
 }
 
-.spanClassName {
+.label {
 
+}
+
+.checkbox {
+    cursor: pointer;
+    -webkit-appearance: none;
+    outline: none;
+    position: relative;
+    background: #2B5278;
+    width: 22px;
+    height: 22px;
+    border: white solid 1px;
+    border-radius: 50%;
+    box-shadow:
+            -5px -5px 20px rgba(255,255,255,0.1),
+            5px 5px 10px rgba(0,0,0,1),
+            inset -2px -2px 5px rgba(255,255,255,0.1),
+            inset 2px 2px 5px rgba(0,0,0,1);
+    transition: 0.5s;
+}
+
+.checkbox:checked {
+    background: #E92535;
+}
+
+.checkbox:focus {
+    border: white solid 1px;
+}
+
+.checkbox:checked:before {
+    border-bottom: 3px solid #111;
+    border-right: 3px solid #111;
+    transform: rotate(45deg);
+    transition: 0.5s;
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    width: 2px;
+    height: 6px;
 }

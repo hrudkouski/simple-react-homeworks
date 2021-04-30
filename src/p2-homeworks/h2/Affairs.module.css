@@ -20,7 +20,7 @@
 }
 
 .filterStyle {
-    color: #BEF4C1;
+    color: #E92535;
     font-weight: bold;
     border-radius: 50%;
 }
@@ -33,7 +33,7 @@
 }
 
 .affairs button:hover {
-    background-color: red;
+    background-color: #E92535;
 }
 
 .affairs button {
@@ -45,7 +45,7 @@
 }
 
 .high {
-    color: red;
+    color: #E92535;
 }
 
 .middle {

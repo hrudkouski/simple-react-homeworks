@@ -11,12 +11,29 @@
     background-color: #5AAFDD;
     border-radius: 30%;
     font-weight: bold;
+    cursor: pointer;
+    height: 30px;
+}
+
+.wrapper button:disabled {
+    cursor: not-allowed;
 }
 
 .wrapper input {
-    background-color: #2B5278;
-    color: #BEF4C1;
-    min-width: 150px;
+    background: #2B5278;
+    outline: none;
+    opacity: 0.6;
+    width: 250px;
+    height: 25px;
+    color: #99ff99;
+    font-size: large;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.wrapper input:focus {
+    outline: none;
+    opacity: 1;
 }
 
 .totalUsers {
