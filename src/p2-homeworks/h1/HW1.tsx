@@ -1,16 +1,17 @@
 import React from 'react'
 import Message from "./Message";
+import style from './Message.module.css';
 
 const messageData = {
-    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-    name: 'Some Name',
-    message: 'some text',
+    avatar: 'https://planetabelarus.by/upload/resize_cache/iblock/5a1/220_220_2/5a1fdf92333813f7e0569fec1442f844.jpg',
+    name: 'Kalinovskij Kastuś',
+    message: ' Kaho lubiš? Biełaruś!',
     time: '22:00',
 }
 
 function HW1() {
     return (
-        <div>
+        <div className={style.main}>
             <hr/>
             homeworks 1
 

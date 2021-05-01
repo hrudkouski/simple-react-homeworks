@@ -11,8 +11,9 @@
     -webkit-appearance: none;
     outline: none;
     position: relative;
-    background: #2B5278;
+    background: #E92535;
     width: 22px;
+    opacity: 0.5;
     height: 22px;
     border: white solid 1px;
     border-radius: 50%;
@@ -25,7 +26,8 @@
 }
 
 .checkbox:checked {
-    background: #E92535;
+    background: darkgreen;
+    opacity: 1;
 }
 
 .checkbox:focus {
@@ -33,14 +35,14 @@
 }
 
 .checkbox:checked:before {
-    border-bottom: 3px solid #111;
-    border-right: 3px solid #111;
+    border-bottom: 3px solid yellow;
+    border-right: 3px solid yellow;
     transform: rotate(45deg);
     transition: 0.5s;
     content: "";
     position: absolute;
     left: 9px;
-    top: 5px;
-    width: 2px;
-    height: 6px;
+    top: 4px;
+    width: 3px;
+    height: 9px;
 }

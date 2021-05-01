@@ -1,5 +1,6 @@
 .wrapper {
     margin: 0 0 30px 100px;
+    height: 200px;
 }
 
 .messages {
@@ -26,9 +27,9 @@
 .avatar img {
     width: 60px;
     border-radius: 40px;
-    position: absolute;
-    top: 120px;
-    left: 20px;
+    position: relative;
+    top: 135px;
+    right: 85px;
 }
 
 .name {
@@ -48,8 +49,8 @@
 }
 
 svg {
-    position: absolute;
-    top: 57px;
-    left: 83px;
+    position: relative;
+    bottom: 140px;
+    right: 20px;
     fill: #2B5278;
 }
