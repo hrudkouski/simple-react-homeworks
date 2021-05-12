@@ -20,9 +20,8 @@
 }
 
 .filterStyle {
-    color: #E92535;
     font-weight: bold;
-    border-radius: 50%;
+    background-color: #E92535 !important;
 }
 
 .affairs {
