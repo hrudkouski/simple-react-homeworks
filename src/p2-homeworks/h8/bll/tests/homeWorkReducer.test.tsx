@@ -1,4 +1,3 @@
-import React from 'react'
 import {homeWorkReducer} from '../homeWorkReducer'
 
 let initialState: any[] // need to fix any
