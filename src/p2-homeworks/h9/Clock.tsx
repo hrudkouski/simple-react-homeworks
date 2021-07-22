@@ -32,28 +32,31 @@ function Clock() {
     const stringDate = date.toLocaleDateString('ru-RU')// fix with date
 
     return (
-        <div className={s.wrapper}>
-            {showClock && (
-                <div
-                    onMouseEnter={onMouseEnter}
-                    onMouseLeave={onMouseLeave}
-                    className={s.clock}
-                >
-                    {stringTime}
-                </div>
-            )}
+        <div style={{height: '140px'}}>
+            <div className={s.wrapper}>
+                {showClock && (
+                    <div
+                        onMouseEnter={onMouseEnter}
+                        onMouseLeave={onMouseLeave}
+                        className={s.clock}
+                    >
+                        {stringTime}
+                    </div>
+                )}
 
-            {show && (
-                <span className={s.date}>
+                {show && (
+                    <span className={s.date}>
                     Current date - {stringDate}
                 </span>
-            )}
+                )}
 
-            <div className={s.buttons}>
-                <SuperButton onClick={start}>start</SuperButton>
-                <SuperButton onClick={stop}>stop</SuperButton>
+                <div className={s.buttons}>
+                    <SuperButton onClick={start}>start</SuperButton>
+                    <SuperButton onClick={stop}>stop</SuperButton>
+                </div>
             </div>
         </div>
+
     )
 }
 

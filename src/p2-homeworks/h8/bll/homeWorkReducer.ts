@@ -3,6 +3,7 @@ import {initialPeople, UserType} from "../HW8";
 // Types
 export type AppActionsType = ReturnType<typeof sortAC> | ReturnType<typeof checkAC>;
 
+// Reducer
 export const homeWorkReducer = (state = initialPeople, action: AppActionsType): UserType[] => { // need to fix any +++
     switch (action.type) {
         case 'sort': {
