@@ -1,0 +1,24 @@
+.people {
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.item {
+    justify-content: space-between;
+    display: flex;
+    width: 300px;
+    margin: 5px 0;
+}
+
+.item span {
+    margin-right: 50px;
+    color: #FFA500;
+    font-weight: bold;
+}
+
+.buttons {
+    margin: 0 20px;
+}
